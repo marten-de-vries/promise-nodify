@@ -1,4 +1,12 @@
 {
 	"name": "promise-nodify",
-	"main": "index.js"
+	"main": "index.js",
+	"devDependencies": {
+		"es3ify": "*"
+	},
+	"browserify": {
+		"transform": [
+			"es3ify"
+		]
+	}
 }
