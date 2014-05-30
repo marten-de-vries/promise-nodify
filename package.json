@@ -1,6 +1,11 @@
 {
 	"name": "promise-nodify",
 	"main": "index.js",
+	"description": "Makes a promise call a node style callback on completion.",
+	"repository": {
+		"type": "bzr",
+		"url": "http://bazaar.launchpad.net/~marten-de-vries/python-pouchdb/0.x"
+	},
 	"devDependencies": {
 		"es3ify": "*"
 	},
